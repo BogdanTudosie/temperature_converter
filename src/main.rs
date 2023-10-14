@@ -5,6 +5,10 @@ fn fahrenheit_to_celsius(value: i32) -> i32 {
      (value - 32) * 5/9
 }
 
+fn celsius_to_fahrenheit(value: i32) -> i32 {
+    (value * 9/5) + 32
+}
+
 fn main() {
     println!("Hello! I can convert Fahrenheit temperatures to Celsius for you! Americans can be really silly!");
 
